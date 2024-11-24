@@ -1,0 +1,27 @@
+XPath-локаторы
+//input[@placeholder='Username'] - поле для ввода Username;
+//input[@placeholder='Password'] - поле для ввода Password;
+//input[@value='Login'] - кнопка "Login";
+//a[@class='shopping_cart_link'] - кнопка "Корзина";
+//div[text()="Sauce Labs Bike Light"]//ancestor::div[@class="inventory_item"]//button[text()="Add to cart"] - кнопка добавления товара "Sauce Labs Bike Light" в корзину;
+//a[@data-test="social-twitter"] - кнопка для перехода в социальную сеть Twitter;
+//a[@data-test="social-facebook"] - кнопка для перехода в социальную сеть Facebook;
+//a[@data-test="social-linkedin"] - кнопка для перехода в социальную сеть Linkedin;
+//select[@class="product_sort_container"] - кнопка "Фильтр";
+//select[@class="product_sort_container"]//option[@value="az"] - сортировка товаров по Name (A to Z);
+//button[text()='Open Menu'] - кнопка Меню (бургер);
+//a[text()='All Items'] - кнопка для перехода в раздел "All Items".
+
+CSS-локаторы
+input.input_error.form_input[placeholder='Username'] - поле для ввода Username;
+input.input_error.form_input[placeholder='Password'] - поле для ввода Password;
+input.submit-button.btn_action[value='Login'] - кнопка "Login";
+a.shopping_cart_link - кнопка "Корзина";
+button#add-to-cart-sauce-labs-bike-light - кнопка добавления товара "Sauce Labs Bike Light" в корзину;
+li.social_twitter>a - кнопка для перехода в социальную сеть Twitter;
+li.social_facebook>a - кнопка для перехода в социальную сеть Facebook;
+li.social_linkedin>a - кнопка для перехода в социальную сеть Linkedin;
+select.product_sort_container - кнопка "Фильтр";
+select.product_sort_container>option[value="az"] - сортировка товаров по Name (A to Z);
+div.bm-burger-button>button - кнопка Меню (бургер);
+a#inventory_sidebar_link - кнопка для перехода в раздел "All Items".
